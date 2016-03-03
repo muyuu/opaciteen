@@ -1,0 +1,22 @@
+.opaciteen
+  // --------------------------
+  //  element
+  // --------------------------
+  transition: opacity .4s ease-out
+  opacity(1)
+
+  img
+    transition: opacity .4s ease-out
+    opacity(1)
+
+  &--transition
+
+    &-hover
+      transition: opacity .4s ease-out
+      +opacity(.6)
+
+      img
+        transition: opacity .4s ease-out
+        +opacity(.6)
+
+

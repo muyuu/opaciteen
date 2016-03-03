@@ -1,0 +1,48 @@
+{
+  "name": "opaciteen",
+  "version": "1.0.0",
+  "description": "hover opacity library",
+  "author": "muyuu <anticyborg@gmail.com>",
+  "license": {
+    "type": "MIT",
+    "url": "http://muyuu.mit-license.org/"
+  },
+  "main": "opaciteen.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muyuu/opaciteen"
+  },
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build",
+    "eslint": "eslint opaciteen.js",
+    "postinstall": "gulp build"
+  },
+  "files": [
+    "README.md",
+    "index.html",
+    "app.js",
+    "opaciteen.js",
+    "src"
+  ],
+  "dependencies": {
+    "jquery": "^1.12.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.5.0",
+    "eslint": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-connect": "^3.1.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-jscs": "^3.0.2",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-open": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "jquery": "^1.12.1",
+    "standby.css": "^0.2.0"
+  }
+}

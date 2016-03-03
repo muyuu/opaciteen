@@ -1,0 +1,7 @@
+*.swp
+*~
+.DS_Store
+.sass-cache
+node_modules
+*.iml
+.idea

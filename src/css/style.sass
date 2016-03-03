@@ -1,0 +1,46 @@
+@charset "utf-8"
+
+$baseFontSizeNum: 20
+
+@import "../../node_modules/standby.css/sass/standby"
+
+
+.librarytitle
+    text-align: center
+
+    &__caption
+        margin: 0 0 40px
+        font-size: 60px
+        font-weight: bold
+
+    &__desc
+    &__btn
+        margin: 20px 0
+
+.btn01
+    +inline-block
+    padding: .5em 4em
+    -webkit-border-radius: 4px
+    border-radius: 4px
+    border: 1px solid $orange
+    color: $orange
+    background: transparent
+    text-decoration: none
+    +transition-hover(all .3s ease-in)
+
+    &:hover
+        background: $orange
+        color: $white
+
+
+.l-header
+    padding: 60px  0
+
+.l-box
+    margin: 20px 0
+    padding: 40px 10px
+    background: #f0f0f0
+
+
+@import "opaciteen.sass"
+
