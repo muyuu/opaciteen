@@ -1,37 +1,35 @@
-# antibase-carousel
+# opaciteen
 
-this code is javascript carousel library for browser(contain ie8).
+this code is javascript hover opacity library for browser(contain ie8).
 
 ## dependences
 - jquery@1.12.0
 
 ## install
-npm install --save-dev antibase-carousel
+npm install --save-dev opaciteen
 
 ## usage
 
 ### browserify
 ```
-var carousel = require('carousel');
+var opaciteen = require('opaciteen');
 
-var carousel01 carousel({root: "js-carouselpattern01"});
+var opaciteen01 = opaciteen();
 
-var carousel02 carousel({
-    root: "js-carouselpattern02",
-    duration: 600,
-    interval: 3000,
-    length: 3
+var opaciteen02 = opaciteen({
+    root: "js-opaciteenpattern02",
+    duration: 500 // msec
 });
 ```
 
 ### other
 ```
 <script src="jquery.js"></script>
-<script src="carousel.js"></script>
+<script src="opaciteen.js"></script>
 <script src="app.js"></script> // module load
 
 # app.js
-var carousel01 = uiCarousel();
+var opaciteen01 = opaciteen();
 ```
 
 
