@@ -1,6 +1,6 @@
 {
   "name": "opaciteen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "hover opacity library",
   "author": "muyuu <anticyborg@gmail.com>",
   "license": {
@@ -15,14 +15,16 @@
   "scripts": {
     "dev": "gulp",
     "build": "gulp build",
-    "eslint": "eslint opaciteen.js",
-    "postinstall": "gulp build"
+    "eslint": "eslint opaciteen.js"
   },
   "files": [
     "README.md",
     "index.html",
+    "style.css",
     "app.js",
     "opaciteen.js",
+    "opaciteen.min.js",
+    "opaciteen.min.js.map",
     "src"
   ],
   "dependencies": {
