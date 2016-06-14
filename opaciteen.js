@@ -75,9 +75,8 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
             duration: !isUndefined(opt.duration) ? opt.duration : 300,
 
             // callback
-            onOpen: opt.onOpen || null,
-            onClick: opt.onClick || null,
-            onAnimateEnd: opt.onAnimateEnd || null
+            onhover: opt.onhover || null,
+            onanimateend: opt.onanimateend || null
         };
 
         // elements
@@ -122,6 +121,9 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
     Module.fn.onhoverHandler = function () {
         this.hover(true);
+
+        // onhover callback
+        if (typeof this.opt.onhover === "function") this.opt.onhover(this.$root);
 
         if (supportTransition()) {
             this.$root.addClass(this.addedClass);

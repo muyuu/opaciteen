@@ -96,7 +96,7 @@
 
       this._animation = !!val;
       return this;
-    }
+    };
 
 
     Module.fn.hover = function(val){
@@ -104,7 +104,7 @@
 
       this._hover = !!val;
       return this;
-    }
+    };
 
 
     Module.fn.setHoverEvent = function(){
